@@ -50,6 +50,9 @@ local use = packer.use
 use({ -- Have packer manage itself
     "wbthomason/packer.nvim",
 })
+use ({
+    "yianwillis/vimcdoc",
+            })
 use({ -- A collection of material based themes.
     "marko-cerovac/material.nvim",
 })

@@ -26,6 +26,7 @@ vim.opt.updatetime = 750 -- I have a modern machine. No need to wait that long
 vim.opt.shortmess:append("c") -- Don't pass messages to |ins-completion-menu|.
 vim.opt.encoding = "utf-8" -- Just in case
 vim.opt.cmdheight = 1 -- Increase this to add more space at the commands at the bottom
+vim.opt.clipboard = "unnamedplus"
 vim.g.netrw_banner = 1 -- Show NetRW top information
 vim.g.netrw_liststyle = 3 -- Use nested tree style NetRW
 vim.g.netrw_winsize = 25 -- Lexplore takes 25% of the screen
