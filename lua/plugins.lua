@@ -52,7 +52,10 @@ use({ -- Have packer manage itself
 })
 use ({
     "yianwillis/vimcdoc",
-            })
+ })
+use ({
+    "jbmorgado/vim-pine-script"
+})
 use({ -- A collection of material based themes.
     "marko-cerovac/material.nvim",
 })
