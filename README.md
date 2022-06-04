@@ -8,6 +8,7 @@ This is a permanent _Work In Progress_.
 
 If you are interested in the rest of my setup, you can visit my [dotfiles repo](https://github.com/marioy47/dotfiles).
 
+oo
 **Look at the [keymaps](lua/keymaps.lua) and [commands](lua/commands.lua) files to find out which commands and key maps are available.**
 
 ## Requirements
