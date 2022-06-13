@@ -9,9 +9,9 @@
 --   command_mode      = "c",
 
 -- Some shortcuts to make the conf file more clean
-local map = vim.api.nvim_set_keymap
-local opts = { noremap = true, silent = true }
 local expr = { noremap = true, silent = true, expr = true }
+local opts = { noremap = true, silent = true }
+local map = vim.api.nvim_set_keymap
 
 -- Map leader key to space
 map("n", "<Space>", "<Nop>", opts)
