@@ -1,8 +1,8 @@
 -- https://github.com/akinsho/bufferline.nvim
 
--- vim.opt.termguicolors = true
- local opts = { noremap = true, silent = true }
- require("bufferline").setup(
+vim.opt.termguicolors = true
+local opts = { noremap = true, silent = true }
+require("bufferline").setup(
      {
          options = {
              -- 为每个 buffer 都配置一个序数
@@ -41,7 +41,7 @@
      }
  )
  -- 关闭当前 buffer，由 bufdelete 插件所提供的方法
- vim.api.nvim_buf_set_keymap("n", "<C-q>", "<cmd>bdelete!<CR>", opts)
+ vim.api.nvim_buf_set_keymap("buffer", "n", "<C-q>", "<cmd>bdelete! %d<CR>", opts)
  -- 切换上一个缓冲区
  vim.api.nvim_buf_set_keymap("n", "<C-h>", "<cmd>BufferLineCyclePrev<CR>", opts)
  -- 切换下一个缓冲区
