@@ -71,6 +71,17 @@ use({ -- Another cool dark theme
         require("config.nightfox")
     end,
 })
+use({
+    "akinsho/bufferline.nvim",
+    --tag = "v2.*",
+    requires = {
+         "famiu/bufdelete.nvim",
+         "kyazdani42/nvim-web-devicons",
+    },
+      config =function ()
+         require("config.bufferline")
+      end,
+})
 use({ -- GitHub inspired theme. Supports light and dark
     "projekt0n/github-nvim-theme",
 })
